@@ -1,0 +1,5 @@
+# Works around a known react-scripts 5.0.1 + eslint dependency-resolution
+# conflict ("jest/globals" environment key unknown) that can occur depending
+# on how npm hoists transitive eslint versions. Safe to delete this line if
+# your local install resolves cleanly without it — see README for details.
+DISABLE_ESLINT_PLUGIN=true
